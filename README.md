@@ -2,6 +2,11 @@
 This library is written in R.
 It enable to integrate any package for Grid Search and Cross Validation.
 
+## Dependency
+- magrittr
+- stringr
+- pracma
+
 ## Usage Example
 ### Addmodel
 ```R

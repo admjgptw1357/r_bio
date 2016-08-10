@@ -19,7 +19,7 @@ score <- cross_validation(function(X,Y){lm(Y~.,data.frame(X,Y))},
                            iris$Sepal.Length,iris$Petal.Width)
 ```
 
-###
+### Grid Search All
 ```R
 score <- grid_search_all(models,iris$Sepal.Length,
                           iris$Petal.Width)
